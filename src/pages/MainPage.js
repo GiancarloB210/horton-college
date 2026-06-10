@@ -1,23 +1,20 @@
 import Header from '../components/Header.js'
+import Footer from '../components/Footer.js'
 import '../style/App.css';
+import { Link } from "react-router-dom";
 
 function MainPage() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Header />
+    <div className="app-page">
+      <Header />
+      <section className="app-section">
         <p>
           Welcome to Horton College!
         </p>
-        <a
-          className="App-link"
-          href="https://en.wikipedia.org/wiki/Parody"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          What this website is intended to be
-        </a>
-      </header>
+        <Link to="/about"> About Us </Link>
+        <Link to="/staff"> Staff Registrar </Link>
+      </section>
+      <Footer />
     </div>
   );
 }
