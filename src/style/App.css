@@ -44,6 +44,10 @@ li {
   color: #61dafb;
 }
 
+a:visited {
+  color: #61daaa;
+}
+
 Footer {
   position: fixed;
   left: 0;

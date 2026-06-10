@@ -16,6 +16,12 @@ function StaffMainPage() {
                     <li>
                         <Link to="./jerrie">Jerrie</Link>
                     </li>
+                    <li>
+                        <Link to="./inverted_jay_baruchel">Inverted Jay Baruchel</Link>
+                    </li>
+                    <li>
+                        <Link to="./ai_generated_anime_woman">AI-Generated Anime Woman</Link>
+                    </li>
                 </ul>
             </section>
             <Footer />
