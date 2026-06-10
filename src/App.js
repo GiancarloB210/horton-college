@@ -1,24 +1,31 @@
-import logo from './logo.svg';
+import horton_college_logo from './horton-college-logo.png'
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <html>
+      <head>
+        <title>Horton College</title>
+      </head>
+      <body>
+        <div className="App">
+          <header className="App-header">
+            <img src={horton_college_logo} className="App-logo" alt="logo" />
+            <p>
+              Welcome to Horton College!
+            </p>
+            <a
+              className="App-link"
+              href="https://en.wikipedia.org/wiki/Parody"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              What this website is intended to be
+            </a>
+          </header>
+        </div>
+      </body>
+    </html>
   );
 }
 
