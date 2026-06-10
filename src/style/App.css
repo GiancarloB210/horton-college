@@ -2,9 +2,20 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1000;
   pointer-events: none;
+  display: block;
+  max-width: 100px;
+  height: auto;
 }
 
 /* @media (prefers-reduced-motion: no-preference) {
