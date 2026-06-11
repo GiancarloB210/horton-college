@@ -1,6 +1,6 @@
 function Footer() {
     return (
-        <div>
+        <footer>
             The institution represented by this website is entirely fictitious.
             <br/>
             <a
@@ -11,7 +11,7 @@ function Footer() {
             >
             What this website is intended to be
             </a>
-        </div>
+        </footer>
     )
 }
 
