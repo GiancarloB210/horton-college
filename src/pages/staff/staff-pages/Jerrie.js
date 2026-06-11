@@ -1,6 +1,6 @@
 import Header from '../../../components/Header.js'
 import Footer from '../../../components/Footer.js'
-import '../../../style/App.css';
+import jerrie from '../../../img/jerrie.jpg'
 import { Link } from "react-router-dom";
 
 function Jerrie() {
@@ -8,6 +8,7 @@ function Jerrie() {
     <div className="app-page">
         <Header />
         <section class="app-section">
+            <img src={jerrie} class='site-image' alt="Jerrie" />
             <h1>Jerrie</h1>
             <p>When we first encountered Jerrie, we thought they would get us shut down. What reputable organization could continue operating after a serious rat problem?</p>
             <p>Well, we decided to set a positive example in that regard. It wasn't a rat problem, it was a rat <i>solution.</i></p>

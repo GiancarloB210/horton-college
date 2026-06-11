@@ -1,6 +1,6 @@
 import Header from '../../../components/Header.js'
 import Footer from '../../../components/Footer.js'
-import '../../../style/App.css';
+import ai_generated_anime_woman from '../../../img/ai_generated_anime_woman.jpg'
 import { Link } from "react-router-dom";
 
 function AIGeneratedAnimeWoman() {
@@ -8,6 +8,7 @@ function AIGeneratedAnimeWoman() {
     <div className="app-page">
         <Header />
         <section class="app-section">
+            <img src={ai_generated_anime_woman} class='site-image' alt="AI-Generated Anime Woman" />
             <h1>AI-Generated Anime Woman</h1>
             <p>You'd think that just because somebody is AI-generated, they wouldn't be able to properly educate students on top-level artistry and artistic integrity...</p>
             <p>However, you'd be <i>wrong</i> in our case!</p>

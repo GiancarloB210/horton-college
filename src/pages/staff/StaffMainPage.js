@@ -1,7 +1,7 @@
 import '../../style/App.css';
 import Header from '../../components/Header.js'
 import Footer from '../../components/Footer.js'
-import { Link } from "react-router-dom";
+import StaffRegistrarList from '../../components/staff/StaffRegistrarList.js'
 
 function StaffMainPage() {
     return (
@@ -12,17 +12,7 @@ function StaffMainPage() {
                 Here at Horton College, we strive to employ only the best (that we can find).<br/>
                 Below, you can find a list of our beloved staff.
                 </p>
-                <ul>
-                    <li>
-                        <Link to="./jerrie">Jerrie</Link>
-                    </li>
-                    <li>
-                        <Link to="./inverted_jay_baruchel">Inverted Jay Baruchel</Link>
-                    </li>
-                    <li>
-                        <Link to="./ai_generated_anime_woman">AI-Generated Anime Woman</Link>
-                    </li>
-                </ul>
+                <StaffRegistrarList />
             </section>
             <Footer />
         </div>

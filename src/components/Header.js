@@ -3,9 +3,11 @@ import { Link } from "react-router-dom";
 
 function Header() {
     return (
-        <Link to="/">
-            <img src={horton_college_logo} className="logo" alt="logo" />
-        </Link>
+        <div class='site-header'>
+            <Link to="/">
+                <img src={horton_college_logo} className="logo" alt="Horton College Logo" />
+            </Link>
+        </div>
     )
 }
 
