@@ -1,6 +1,5 @@
 import Header from '../components/Header.js'
 import Footer from '../components/Footer.js'
-import '../style/App.css';
 import { Link } from "react-router-dom";
 
 function MainPage() {
@@ -13,6 +12,7 @@ function MainPage() {
         </p>
         <Link to="/about"> About Us </Link>
         <Link to="/staff"> Staff Registrar </Link>
+        <Link to="/schedule_visit"> Schedule a Visit </Link>
       </section>
       <Footer />
     </div>

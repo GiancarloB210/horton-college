@@ -1,4 +1,3 @@
-import '../../style/App.css';
 import Header from '../../components/Header.js'
 import Footer from '../../components/Footer.js'
 import StaffRegistrarList from '../../components/staff/StaffRegistrarList.js'

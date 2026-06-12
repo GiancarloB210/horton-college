@@ -1,4 +1,3 @@
-import '../style/App.css';
 import Header from '../components/Header.js'
 import Footer from '../components/Footer.js'
 import { Link } from "react-router-dom";
@@ -25,7 +24,8 @@ function AboutUsPage() {
                     <li>Not <i>our</i> college, but still.</li>
                 </ul>
                 <p>
-                    Apply today! Or tomorrow! Or whenever our admissions guy gets back from his tri-weekly vacation!
+                    Apply today! Or tomorrow! Or whenever our admissions guy gets back from his tri-weekly vacation!<br />
+                    You can even <Link to='../schedule_visit'>schedule a visit</Link> to see what our campus has to offer!
                 </p>
             </section>
             <Footer />
