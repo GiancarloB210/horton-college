@@ -8,9 +8,7 @@ function AboutUsPage() {
             <Header />
             <section className="app-section">
                 <p>
-                    Horton College was founded some time following the discovery of penicillin and some time before the launch of ChatGPT. 
-                </p>
-                <p>
+                    Horton College was founded some time following the discovery of penicillin and some time before the launch of ChatGPT. <br />
                     Nobody knows exactly when it was founded. Funnily enough, nobody knows why nobody knows that!
                 </p>
                 <p>

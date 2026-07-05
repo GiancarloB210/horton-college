@@ -1,6 +1,6 @@
 import Header from '../../../components/Header.js'
 import Footer from '../../../components/Footer.js'
-import jerrie from '../../../img/jerrie.jpg'
+import jerrie from '../../../img/staff/jerrie.jpg'
 import { Link } from "react-router-dom";
 
 function Jerrie() {

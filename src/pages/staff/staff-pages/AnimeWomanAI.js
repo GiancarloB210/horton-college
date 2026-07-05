@@ -1,6 +1,6 @@
 import Header from '../../../components/Header.js'
 import Footer from '../../../components/Footer.js'
-import ai_generated_anime_woman from '../../../img/ai_generated_anime_woman.jpg'
+import ai_generated_anime_woman from '../../../img/staff/ai_generated_anime_woman.jpg'
 import { Link } from "react-router-dom";
 
 function AIGeneratedAnimeWoman() {

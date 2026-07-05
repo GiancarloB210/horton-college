@@ -1,6 +1,6 @@
 import Header from '../../../components/Header.js'
 import Footer from '../../../components/Footer.js'
-import inverted_jay_baruchel from '../../../img/inverted_jay_baruchel.jpg'
+import inverted_jay_baruchel from '../../../img/staff/inverted_jay_baruchel.jpg'
 import { Link } from "react-router-dom";
 
 function InvertedJayBaruchel() {

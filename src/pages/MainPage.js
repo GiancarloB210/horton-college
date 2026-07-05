@@ -12,7 +12,8 @@ function MainPage() {
         </p>
         <Link to="/about"> About Us </Link>
         <Link to="/staff"> Staff Registrar </Link>
-        <Link to="/schedule_visit"> Schedule a Visit </Link>
+        <Link to="/visits"> Visits </Link>
+        <Link to="/alumni"> Star Alumni </Link>
       </section>
       <Footer />
     </div>

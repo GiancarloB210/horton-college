@@ -25,3 +25,16 @@ body {
   justify-content: center;
   font-size: calc(10px + 2vmin);
 }
+
+.visits-list {
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+.delete-btn {
+    width: auto;
+    padding: 6px 8px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: 3px solid darkred;
+}
