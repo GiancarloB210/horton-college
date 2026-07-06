@@ -1,16 +1,20 @@
 import Header from '../../../components/Header.js'
 import Footer from '../../../components/Footer.js'
 import baxter from '../../../img/alumni/baxter.jpeg'
+import baxter_shiny from '../../../img/alumni/baxter_shiny.jpeg'
+import { useState, useEffect } from 'react'
 import { Link } from "react-router-dom";
 
 function Baxter() {
-  let num_clicks = 0;
+  const [isShiny, setIsShiny] = useState(false);
 
-  function onBaxterClick() {
-    if (num_clicks < 10) {
-      num_clicks++;
-    } else {
-      alert("You're clicking Baxter so much that he's about to spoil!")
+  useEffect(() => {
+    determineShiny();
+  }, []);
+
+  function determineShiny() {
+    if ((Math.floor(Math.random() * 100) + 1) > 99) {
+      setIsShiny(true)
     }
   }
 
@@ -18,7 +22,7 @@ function Baxter() {
     <div className="app-page">
         <Header />
         <section class="app-section">
-            <img src={baxter} onClick={onBaxterClick} class='site-image' alt="Baxter" />
+            <img src={isShiny ? baxter_shiny : baxter} onClick={determineShiny} class='site-image' alt="Baxter" />
             <h1>Baxter David Edwards</h1>
             <p>Believe it or not, he graduated at the top of his class and with more honours than any alumnus before him.</p>
             <p>Talk about some top percent milk!</p>

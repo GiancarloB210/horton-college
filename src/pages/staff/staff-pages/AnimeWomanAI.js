@@ -14,7 +14,7 @@ function AIGeneratedAnimeWoman() {
             <p>However, you'd be <i>wrong</i> in our case!</p>
             <p>(At least when it solely comes to her)</p>
             <p>((Please support real artists))</p>
-            <Link to="../staff">Back to Staff Registrar</Link>
+            <Link to="/staff">Back to Staff Registrar</Link>
         </section>
         <Footer />
     </div>

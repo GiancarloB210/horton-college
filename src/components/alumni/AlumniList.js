@@ -6,7 +6,7 @@ function AlumniList() {
             <h2>Star Alumni</h2>
             <ul>
                 <li>
-                    <Link to="./baxter">Baxter David Edwards</Link>
+                    <Link to="/alumni/baxter">Baxter David Edwards</Link>
                 </li>
             </ul>
         </div>

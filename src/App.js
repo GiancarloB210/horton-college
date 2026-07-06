@@ -5,6 +5,7 @@ import DisplayVisitsPage from './pages/visits/DisplayVisitsPage.js'
 import VisitsDirectoryPage from './pages/visits/VisitsDirectoryPage.js'
 import StaffMainPage from './pages/staff/StaffMainPage.js'
 import AlumniMainPage from './pages/alumni/AlumniMainPage.js'
+import UnknownPage from './pages/UnknownPage.js'
 import Baxter from './pages/alumni/alumni-pages/Baxter.js'
 import Jerrie from './pages/staff/staff-pages/Jerrie.js'
 import InvertedJayBaruchel from './pages/staff/staff-pages/InvertedJayBaruchel.js'
@@ -29,6 +30,7 @@ function App() {
           <Route path="/visits" element={<VisitsDirectoryPage />} />
             <Route path="/visits/schedule_visit" element={<ScheduleVisitPage />} />
             <Route path="/visits/display_visits" element={<DisplayVisitsPage />} />
+          <Route path="/unknown" element={<UnknownPage />} />
         </Routes>
       </BrowserRouter>
    </VisitsProvider>

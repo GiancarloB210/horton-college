@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Header() {
     return (
-        <header class='site-header'>
+        <header>
             <Link to="/">
                 <img src={horton_college_logo} className="logo" alt="Horton College Logo" />
             </Link>

@@ -16,7 +16,7 @@ function Jerrie() {
             <p>Jerrie always aims to service college clients with a smile and the best reception possible. Their can-do attitude is what we here at Horton College are all about.</p>
             <p>You can also bribe him with a piece of cheese in exchange for $50 of cafeteria goods at no cost to you, but you didn't hear that from us!</p>
             <br/>
-            <Link to="../staff">Back to Staff Registrar</Link>
+            <Link to="/staff">Back to Staff Registrar</Link>
         </section>
         <Footer />
     </div>

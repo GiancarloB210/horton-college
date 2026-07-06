@@ -6,16 +6,16 @@ function StaffRegistrarList() {
             <h2>Professors</h2>
             <ul>
                 <li>
-                    <Link to="./inverted_jay_baruchel">Inverted Jay Baruchel</Link>
+                    <Link to="/staff/inverted_jay_baruchel">Inverted Jay Baruchel</Link>
                 </li>
                 <li>
-                    <Link to="./ai_generated_anime_woman">AI-Generated Anime Woman</Link>
+                    <Link to="/staff/ai_generated_anime_woman">AI-Generated Anime Woman</Link>
                 </li>
             </ul>
             <h2>Additional Staff</h2>
             <ul>
                 <li>
-                    <Link to="./jerrie">Jerrie</Link>
+                    <Link to="/staff/jerrie">Jerrie</Link>
                 </li>
             </ul>
         </div>

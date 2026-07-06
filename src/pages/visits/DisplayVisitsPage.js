@@ -15,7 +15,6 @@ function DisplayVisitsPage() {
                 {visits.length === 0 ? (
                     <p className="no-visits">No visits have been scheduled yet.</p>
                 ) : (
-                    // 3. Loop through your Visit objects and display them
                     <ul className="visits-list">
                         {visits.map((visit, index) => (
                             <li key={index}>

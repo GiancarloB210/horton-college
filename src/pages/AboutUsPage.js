@@ -18,12 +18,12 @@ function AboutUsPage() {
                     <li>A swimming pool which is one FILTHtration day away from being declared a national health and safety hazard!</li>
                     <li>A renowned (don't ask who we asked to say this) art gallery which we may or may not have bribed some local preschoolers to submit art to!</li>
                     <li>A cafeteria offering food.</li>
-                    <li>IGNORE THE RAT IN THE CAFETERIA! Their name is <Link to='../staff/jerrie'>Jerrie</Link> and they're working to put their rat family through college!</li>
+                    <li>IGNORE THE RAT IN THE CAFETERIA! Their name is <Link to='/staff/jerrie'>Jerrie</Link> and they're working to put their rat family through college!</li>
                     <li>Not <i>our</i> college, but still.</li>
                 </ul>
                 <p>
                     Apply today! Or tomorrow! Or whenever our admissions guy gets back from his tri-weekly vacation!<br />
-                    You can even <Link to='../schedule_visit'>schedule a visit</Link> to see what our campus has to offer!
+                    You can even <Link to='/schedule_visit'>schedule a visit</Link> to see what our campus has to offer!
                 </p>
             </section>
             <Footer />

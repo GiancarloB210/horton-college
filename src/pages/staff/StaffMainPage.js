@@ -7,9 +7,9 @@ function StaffMainPage() {
         <div className="app-page">
             <Header />
             <section class="app-section">
+                <h1>Staff</h1>
                 <p>
-                Here at Horton College, we strive to employ only the best (that we can find).<br/>
-                Below, you can find a list of our beloved staff.
+                Here at Horton College, we strive to employ only the best (that we can find).
                 </p>
                 <StaffRegistrarList />
             </section>
