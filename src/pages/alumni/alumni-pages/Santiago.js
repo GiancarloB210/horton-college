@@ -24,7 +24,7 @@ function Santiago() {
             </ul>
             <p>(Note: The employee who wrote the last bullet point has been terminated as of the time of this page's most recent update)</p>
             <br/>
-            <Link to="../alumni">Back to Star Alumni List</Link>
+            <Link to="/alumni">Back to Star Alumni Registrar</Link>
         </section>
         <Footer />
     </div>

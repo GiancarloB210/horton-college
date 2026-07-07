@@ -1,5 +1,6 @@
 import MainPage from './pages/MainPage.js'
 import AboutUsPage from './pages/AboutUsPage.js'
+import VisitsDirectoryPage from './pages/visits/VisitsDirectoryPage.js'
 import ScheduleVisitPage from './pages/visits/ScheduleVisitPage.js'
 import DisplayVisitsPage from './pages/visits/DisplayVisitsPage.js'
 import StaffMainPage from './pages/staff/StaffMainPage.js'
@@ -32,9 +33,11 @@ function App() {
             <Route path="/alumni/santiago" element={<Santiago />} />
           <Route path="/facilities" element={<FacilitiesMainPage />} />
              <Route path="/facilities/pool" element={<PoolPage />} />
-          <Route path="/visits/schedule_visit" element={<ScheduleVisitPage />} />
-          <Route path="/visits/display_visits" element={<DisplayVisitsPage />} />
+          <Route path="/visits" element={<VisitsDirectoryPage />} />
+            <Route path="/visits/schedule_visit" element={<ScheduleVisitPage />} />
+            <Route path="/visits/display_visits" element={<DisplayVisitsPage />} />
           <Route path="/unknown" element={<UnknownPage />} />
+          <Route path="*" element={<UnknownPage />} />
         </Routes>
       </BrowserRouter>
    </VisitsProvider>
