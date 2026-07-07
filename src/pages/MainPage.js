@@ -19,6 +19,7 @@ function MainPage() {
         
         <h2>Miscellaneous</h2>
         <Link to="/about"> About Us </Link>
+        <Link to="/facilities"> Facilities </Link>
       </section>
       <Footer />
     </div>
