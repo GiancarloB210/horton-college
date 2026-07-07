@@ -1,14 +1,36 @@
 import Header from '../../../components/Header.js'
 import Footer from '../../../components/Footer.js'
 import santiago from '../../../img/alumni/santiago.jpg'
+import godfather_theme from '../../../audio/godfather-theme.mp3'; 
+import { useEffect, useRef }from 'react';
 import { Link } from "react-router-dom";
 
 function Santiago() {
+  const audioRef = useRef(new Audio(godfather_theme));
+
+  function toggleAudio() {
+    const audio = audioRef.current;
+    if (audio.paused) {
+      audio.play().catch(error => alert("Audio playback failed:", error));
+    } else {
+      audio.pause();
+    }
+  }
+
+  useEffect(() => {
+    return () => {
+      const audio = audioRef.current;
+      audio.pause();
+      audio.currentTime = 0;
+    };
+  }, []);
+
+
   return (
     <div className="app-page">
         <Header />
-        <section class="app-section">
-            <img src={santiago} class='site-image' alt="Baxter" />
+        <section className="app-section">
+            <img src={santiago} onClick={toggleAudio} className='site-image' alt="Baxter" />
             <h1>Santiago Bernuscoli</h1>
             <p>
               Santiago enrolled in Horton College when he was 73 years old.<br />
