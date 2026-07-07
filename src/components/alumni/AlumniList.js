@@ -8,6 +8,9 @@ function AlumniList() {
                 <li>
                     <Link to="/alumni/baxter">Baxter David Edwards</Link>
                 </li>
+                <li>
+                    <Link to="/alumni/santiago">Santiago Bernuscoli</Link>
+                </li>
             </ul>
         </div>
     )

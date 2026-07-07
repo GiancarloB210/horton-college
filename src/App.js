@@ -5,6 +5,7 @@ import DisplayVisitsPage from './pages/visits/DisplayVisitsPage.js'
 import StaffMainPage from './pages/staff/StaffMainPage.js'
 import AlumniMainPage from './pages/alumni/AlumniMainPage.js'
 import Baxter from './pages/alumni/alumni-pages/Baxter.js'
+import Santiago from './pages/alumni/alumni-pages/Santiago.js'
 import Jerrie from './pages/staff/staff-pages/Jerrie.js'
 import InvertedJayBaruchel from './pages/staff/staff-pages/InvertedJayBaruchel.js'
 import AIGeneratedAnimeWoman from './pages/staff/staff-pages/AnimeWomanAI.js'
@@ -28,6 +29,7 @@ function App() {
             <Route path="/staff/ai_generated_anime_woman" element={<AIGeneratedAnimeWoman />} />
           <Route path="/alumni" element={<AlumniMainPage />} />
             <Route path="/alumni/baxter" element={<Baxter />} />
+            <Route path="/alumni/santiago" element={<Santiago />} />
           <Route path="/facilities" element={<FacilitiesMainPage />} />
              <Route path="/facilities/pool" element={<PoolPage />} />
           <Route path="/visits/schedule_visit" element={<ScheduleVisitPage />} />
